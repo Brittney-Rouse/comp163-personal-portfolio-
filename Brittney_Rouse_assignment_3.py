@@ -29,12 +29,12 @@ hobbies = {"Gaming", "Photography", "Reading", "Drawing", "Music"}
 entertainment_backlog = {"Talking to friends", "Persona 5", "Watching YouTube"}
 
 #Organizational Mapping (dictionaries)
-course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
-course_professors = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", "ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
-course_rooms = {"COMP 163": "M-Eric 300", "MATH 150": "Marteena 201", "ENG 101": "Crosby 121", "HIS 105": "Crosby 210"}
-monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100}
-study_hours_per_subject = {"Programming": 10, "Math": 8, "English": 4, "History": 3}
-contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+course_credits = {"COMP 163": 3, "MATH 131": 4, "GEEN 111": 1, "HIST 106": 3, "FRST 101": 1, "SPCH 250": 3}
+course_professors = {"COMP 163": "Professor Rhodes", "MATH 131": "Professor Johnson", "GEEN 111": "Professor Parrish", "HIST 106": "Professor Devoe", "FRST 101": "Professor Barrow", "SPCH 250": "Professor Volgeson"}
+course_rooms = {"COMP 163": "Martin Engineering Research 300", "MATH 131": "Marteena Hall 233", "GEEN 111": "McNair Hall 240", "HIST 106": "Online", "FRST 101": "Online", "SPCH 250": "Online"}
+monthly_budget = {"Food": 300, "Entertainment": 200, "Books": 100, "Transportation": 120}
+study_hours_per_subject = {"Programming": 10, "Math": 8, "COE Colloquium": 1, "History": 3, "College Success": 1, "Speech": 3}
+contact_directory = {"Mom": "336-221-5885", "Dad": "336-888-9990", "Academic Advisor": "336-505-2217"}
 
 #Required Calculations (using data structures)
 #a. Total current credits from credit hours lists
@@ -110,6 +110,7 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
 
 
 
