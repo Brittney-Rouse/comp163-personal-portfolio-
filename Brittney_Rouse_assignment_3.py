@@ -9,10 +9,10 @@ graduation_semester = "Spring 2029"
 major = "Computer Science"
 
 #Academic Data Organization (lists)
-current_courses_list = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
-completed_courses_list = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
-credit_hours_list = [3, 3, 3, 3]
-GPA_history_list = [3.2, 3.6, 3.4, 3.7]
+current_courses_list = ["COMP 163", "MATH 131", "GEEN 111", "HIST 106", "FRST 101", "SPCH 250"]
+completed_courses_list = ["AP Earth and Envrionmental", "Chemistry", "Pre-Calculus", "Spanish II", "AP World History", "AP Literature"]
+credit_hours_list = [3, 4, 1, 3, 1, 3]
+GPA_history_list = [4.12]
 
 #Contact Information Storage (tuples)
 emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
@@ -110,4 +110,5 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
 
