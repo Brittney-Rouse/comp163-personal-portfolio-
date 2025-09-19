@@ -2,10 +2,10 @@ import math
 from collections import namedtuple
 
 #Personal Information Storage (strings)
-full_name = "Jordan Smith"
-student_email = "jsmith@ncat.edu"
-hometown = "Charlotte, NC"
-graduation_semester = "Spring 2028"
+full_name = "Brittney Rouse"
+student_email = "barouse1@ncat.edu"
+hometown = "Greensboro, NC"
+graduation_semester = "Spring 2029"
 major = "Computer Science"
 
 #Academic Data Organization (lists)
@@ -110,3 +110,4 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
