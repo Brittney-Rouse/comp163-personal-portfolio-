@@ -40,13 +40,13 @@ contact_directory = {"Mom": "336-221-5885", "Dad": "336-888-9990", "Academic Adv
 #a. Total current credits from credit hours lists
 total_credit_hours = sum(credit_hours_list)
 #b. Cumulative GPA from GPA history list 
-cumulative_GPA = sum(GPA_history_list) / 4
+cumulative_GPA = sum(GPA_history_list) / 1
 #c. Count of completed courses 
 count_of_completed_courses = len(completed_courses_list)
 #d. Total weekly study hours from study hours dictionary 
-total_weekly_study_hours = study_hours_per_subject["Programming"] + study_hours_per_subject["Math"] + study_hours_per_subject["English"] + study_hours_per_subject["History"]
+total_weekly_study_hours = study_hours_per_subject["Programming"] + study_hours_per_subject["Math"] + study_hours_per_subject["COE Colloquium"] + study_hours_per_subject["History"]+ study_hours_per_subject["College Success"] + study_hours_per_subject["Speech"]
 #e. Academic load (credits + study hours combined)
-credits = course_credits["COMP 163"] + course_credits["MATH 150"] + course_credits["ENG 101"] + course_credits["HIS 105"]
+credits = course_credits["COMP 163"] + course_credits["MATH 131"] + course_credits["GEEN 111"] + course_credits["HIST 106"] + course_credits["FRST 101"] + course_credits["SPCH 250"]
 academic_load = credits + total_weekly_study_hours
 #f. Monthly budget total from all categories 
 monthly_budget_total = monthly_budget["Food"] + monthly_budget["Entertainment"] + monthly_budget["Books"] + monthly_budget["Transportation"]
@@ -110,6 +110,7 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
 
 
 
