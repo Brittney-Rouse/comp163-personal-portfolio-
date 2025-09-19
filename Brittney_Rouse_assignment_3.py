@@ -83,9 +83,11 @@ print(f"Weekly Study Time: {total_weekly_study_hours} hours")
 print(f"Academic Investment: ${study_cost_per_hours} per study hour\n")
 print(f"Current Courses:")
 print(current_courses_list[0], "-", course_credits["COMP 163"], "credits", "-", course_professors["COMP 163"], "-", course_rooms["COMP 163"])
-print(current_courses_list[1], "-", course_credits["MATH 150"], "credits", "-", course_professors["MATH 150"], "-", course_rooms["MATH 150"])
-print(current_courses_list[2], "-", course_credits["ENG 101"], "credits", "-", course_professors["ENG 101"], "-", course_rooms["ENG 101"])
-print(f"{current_courses_list[3]} - {course_credits["HIS 105"]} credits - {course_professors["HIS 105"]} - {course_rooms["HIS 105"]}\n")
+print(current_courses_list[1], "-", course_credits["MATH 131"], "credits", "-", course_professors["MATH 131"], "-", course_rooms["MATH 131"])
+print(current_courses_list[2], "-", course_credits["GEEN 111"], "credits", "-", course_professors["GEEN 111"], "-", course_rooms["GEEN 111"])
+print(current_courses_list[3], "-", course_credits["HIST 106"], "credits", "-", course_professors["HIST 106"], "-", course_rooms["HIST 106"])
+print(current_courses_list[4], "-", course_credits["FRST 101"], "credits", "-", course_professors["FRST 101"], "-", course_rooms["FRST 101"])
+print(f"{current_courses_list[5]} - {course_credits["SPCH 250"]} credits - {course_professors["SPCH 250"]} - {course_rooms["SPCH 250"]}\n")
 print(f"=== PERSONAL DEVELOPMENT ===")
 print(f"Current Skills:", current_skills)
 print(f"Learning Goals:", skills_to_learn)
@@ -110,6 +112,7 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
 
 
 
