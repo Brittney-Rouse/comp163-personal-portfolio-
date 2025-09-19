@@ -15,18 +15,18 @@ credit_hours_list = [3, 4, 1, 3, 1, 3]
 GPA_history_list = [4.12]
 
 #Contact Information Storage (tuples)
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
-home_address = ("456 Oak Street", "Charlotte, NC", "28202")
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "@jordandev", 127)
-birthday = ("Birthday", "5", "22", "2006")
+emergency_contact = ("Mom", "Amber Rouse", "336-221-5885")
+home_address = ("3742 Newsletter Street", "Greensboro, NC", "27401")
+instagram_info = ("Instagram", "@daysofbrittney", 25)
+twitter_info = ("Twitter", "@NeverUsingThisEver", 0)
+birthday = ("Birthday", "1", "30", "2007")
 
 #Interest Tracking (sets)
-current_skills = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
+current_skills = {"Python basics", "Problem solving", "Time management", "Photography", "Teamworking skills"}
 skills_to_learn = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
 career_interests = {"Software development", "Web development", "Data science", "Game development"}
-hobbies = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment_backlog = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+hobbies = {"Gaming", "Photography", "Reading", "Drawing", "Music"}
+entertainment_backlog = {"Talking to friends", "Persona 5", "Watching YouTube"}
 
 #Organizational Mapping (dictionaries)
 course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
@@ -110,5 +110,6 @@ print(f"Current Academic Load: {academic_load} weekly commitments")
 print(f"Entertainment Backlog: {entertainment_backlog_management_count} items")
 print(f"Current Hobbies: {len(hobbies)} activities")
 print(f"================================================================")
+
 
 
